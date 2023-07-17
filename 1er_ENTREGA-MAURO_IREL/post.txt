@@ -1,0 +1,42 @@
+USANDO THUNDER CLIENT EXTENSION
+----------------------------------------------------------------
+GET: https://jsonplaceholder.typicode.com/posts/7
+{
+  "userId": 1,
+  "id": 7,
+  "title": "magnam facilis autem",
+  "body": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas"
+}
+----------------------------------------------------------------
+POST: https://jsonplaceholder.typicode.com/posts
+{
+    "userId": 1,
+    "id": 7,
+    "title": "magnam facilis autem",
+    "body": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas"
+}
+POST RESPUESTA (201: Creado)
+{
+  "userId": 1,
+  "title": "Un TíTUlo con ñ",
+  "body": "será que acepta utf-8 con ñ?",
+  "id": 101
+}
+----------------------------------------------------------------
+PUT: https://jsonplaceholder.typicode.com/posts/11
+{
+  "userId": 2,
+  "title": "Un TíTUlo con ñ1",
+  "body": "será que acepta utf-8 con ñ?1"
+}
+PUT RESPUESTA (200, Ok)
+{
+  "userId": 2,
+  "title": "Un TíTUlo con ñ1",
+  "body": "será que acepta utf-8 con ñ?1",
+  "id": 11
+}
+----------------------------------------------------------------
+DELETE: https://jsonplaceholder.typicode.com/posts/11
+RESPUESTA (200, Ok)
+{}

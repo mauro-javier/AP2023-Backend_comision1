@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  },
+  "name": "backend_comision1-1er_entrega-mauro_irel",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "mauro_irel",
+  "license": "ISC",
+  "description": "Clase-09: CRUD con BD frutas en archivo JSON"
+}
